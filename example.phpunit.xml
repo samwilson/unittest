@@ -7,10 +7,10 @@
 
 	Any options you specify when calling phpunit will override the ones in here
 -->
-<phpunit colors="true" bootstrap="rel/path/to/index.php">
+<phpunit colors="true" bootstrap="rel/path/to/modules/unittest/bootstrap.php">
 	<testsuites>
 		<testsuite name="Kohana Tests">
-			<file>rel/path/to/unittest/tests.php</file>
+			<file>rel/path/to/modules/unittest/tests.php</file>
 		</testsuite>
 	</testsuites>
 </phpunit>
